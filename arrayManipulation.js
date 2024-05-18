@@ -7,4 +7,13 @@ function processArray(arr) {
         return num * 3;
       }
     });
-}
+}  //Task 2
+function formatArrayStrings(strArr, numArr) {
+  return strArr.map((str, i) => {
+    if (numArr[i] % 2 === 0) {
+      return str.toUpperCase();
+    } else {
+      return str.toLowerCase();
+    }
+  });
+ } 
